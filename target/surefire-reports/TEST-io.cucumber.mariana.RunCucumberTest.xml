@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="io.cucumber.mariana.RunCucumberTest" time="0.841" errors="0" skipped="4">
+<testsuite tests="5" failures="0" name="io.cucumber.mariana.RunCucumberTest" time="18.376" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
@@ -64,64 +64,82 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Preencher o formulario no site SampleApp Tricentis" name="Preencher Enter Vehicle Data" time="0.763">
-    <skipped/>
+  <testcase classname="Preencher o formulario no site Tricentis" name="Preencher Enter Vehicle Data" time="12.176"/>
+  <testcase classname="Preencher o formulario no site Tricentis" name="Preencher Enter Insurant Data" time="4.098"/>
+  <testcase classname="Preencher o formulario no site Tricentis" name="Preencher Enter Product Data" time="1.755"/>
+  <testcase classname="Preencher o formulario no site Tricentis" name="Escolher tipo de Select Price Option" time="0.173">
+    <error message="element not interactable: [object HTMLInputElement] has no size and location
+  (Session info: chrome=89.0.4389.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7TKLK9M8&apos;, ip: &apos;192.168.3.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\marar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf05caa20b93f1ef5dadf6b41656ee5b" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLInputElement] has no size and location
+  (Session info: chrome=89.0.4389.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7TKLK9M8&apos;, ip: &apos;192.168.3.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\marar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf05caa20b93f1ef5dadf6b41656ee5b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at io.cucumber.mariana.PriceOptionSteps.escolho_um_preco(PriceOptionSteps.java:17)
+	at ✽.escolho um preco(classpath:io/cucumber/mariana/cenariosPreencher.feature:50)
+</error>
     <system-out>
-Cenario: Preencher Enter Vehicle Data                               &amp;#27;[90m# io/cucumber/mariana/cenariosPreencher.feature:7&amp;#27;[0m
-  &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33mestou no site &quot;http://sampleapp.tricentis.com/101/app.php&quot;&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mclico em uma opcao em Make&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo Engine Performance&amp;#27;[0m                              &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho Date of Manufacture&amp;#27;[0m                                     &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mseleciono Number of Seats&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mseleciono Fuel Type&amp;#27;[0m                                             &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo List Price&amp;#27;[0m                                      &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo License Plate Number&amp;#27;[0m                            &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo Annual Mileage&amp;#27;[0m                                  &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mEntao &amp;#27;[0m&amp;#27;[33mclico no botao &quot;Next&quot;&amp;#27;[0m                                       &amp;#27;[90m# null&amp;#27;[0m
+Cenario: Escolher tipo de Select Price Option &amp;#27;[90m# io/cucumber/mariana/cenariosPreencher.feature:49&amp;#27;[0m
+  &amp;#27;[31mQuando &amp;#27;[0m&amp;#27;[31mescolho um preco&amp;#27;[0m                     &amp;#27;[90m# io.cucumber.mariana.PriceOptionSteps.escolho_um_preco()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLInputElement] has no size and location
+  (Session info: chrome=89.0.4389.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-7TKLK9M8&apos;, ip: &apos;192.168.3.9&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\marar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52566}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf05caa20b93f1ef5dadf6b41656ee5b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at io.cucumber.mariana.PriceOptionSteps.escolho_um_preco(PriceOptionSteps.java:17)
+	at ?.escolho um preco(classpath:io/cucumber/mariana/cenariosPreencher.feature:50)
+&amp;#27;[0m
+  &amp;#27;[33mEntao &amp;#27;[0m&amp;#27;[33mclico no botao seguinte Next&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
 </system-out>
-    <system-err>abr 01, 2021 8:18:32 AM io.cucumber.junit.Cucumber &lt;init&gt;
-ADVERTÊNCIA: By default Cucumber is running in --non-strict mode.
-This default will change to --strict and --non-strict will be removed.
-You can use --strict or @CucumberOptions(strict = true) to suppress this warning
-</system-err>
   </testcase>
-  <testcase classname="Preencher o formulario no site SampleApp Tricentis" name="Preencher Enter Insurant Data" time="0.05">
-    <skipped/>
-    <system-out>
-Cenario: Preencher Enter Insurant Data &amp;#27;[90m# io/cucumber/mariana/cenariosPreencher.feature:20&amp;#27;[0m
-  &amp;#27;[33mDado &amp;#27;[0m&amp;#27;[33mque digito no campo First Name&amp;#27;[0m  &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo Last Name&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho Date of Birth&amp;#27;[0m              &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mclico na opcao de Gender&amp;#27;[0m           &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo Street Adress&amp;#27;[0m      &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho Country&amp;#27;[0m                    &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo Zip Code&amp;#27;[0m           &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito no campo City&amp;#27;[0m               &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho Occupation&amp;#27;[0m                 &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho Hobbies&amp;#27;[0m                    &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mdigito o Website&amp;#27;[0m                   &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mEntao &amp;#27;[0m&amp;#27;[33mclico no próximo botao &quot;Next&quot;&amp;#27;[0m  &amp;#27;[90m# null&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Preencher o formulario no site SampleApp Tricentis" name="Preencher Enter Product Data" time="0.014">
-    <skipped/>
-    <system-out>
-Cenario: Preencher Enter Product Data            &amp;#27;[90m# io/cucumber/mariana/cenariosPreencher.feature:35&amp;#27;[0m
-  &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33mseleciono uma data  no campo Start Date&amp;#27;[0m &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mseleciono um valor em Insurance Sum&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho no campo Merit Rating&amp;#27;[0m                &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mescolho no campo Damage Insurance&amp;#27;[0m            &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mseleciono uma opcao em Optional Products&amp;#27;[0m     &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mE &amp;#27;[0m&amp;#27;[33mseleciono uma opcao em Courtesy Car&amp;#27;[0m          &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mEntao &amp;#27;[0m&amp;#27;[33mclico em &quot;Next&quot;&amp;#27;[0m                          &amp;#27;[90m# null&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Preencher o formulario no site SampleApp Tricentis" name="Escolher tipo de Select Price Option" time="0.014">
-    <skipped/>
-    <system-out>
-Cenario: Escolher tipo de Select Price Option &amp;#27;[90m# io/cucumber/mariana/cenariosPreencher.feature:44&amp;#27;[0m
-  &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33mescolho um preco&amp;#27;[0m                     &amp;#27;[90m# null&amp;#27;[0m
-  &amp;#27;[33mEntao &amp;#27;[0m&amp;#27;[33mclico no botao seguinte &quot;Next&quot;&amp;#27;[0m        &amp;#27;[90m# null&amp;#27;[0m
-</system-out>
+  <testcase classname="Preencher o formulario no site Tricentis" name="Escolher tipo de Select Price Option" time="0.174">
+    <error message="The step &quot;clico no botao seguinte Next&quot; is undefined. You can implement it using tne snippet(s) below:
+
+@Entao(&quot;clico no botao seguinte Next&quot;)
+public void clico_no_botao_seguinte_Next() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;clico no botao seguinte Next&quot; is undefined. You can implement it using tne snippet(s) below:
+
+@Entao(&quot;clico no botao seguinte Next&quot;)
+public void clico_no_botao_seguinte_Next() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+</error>
   </testcase>
 </testsuite>

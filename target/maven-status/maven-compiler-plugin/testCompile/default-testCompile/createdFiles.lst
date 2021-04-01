@@ -1,0 +1,7 @@
+io\cucumber\mariana\AVehicleDataSteps.class
+io\cucumber\mariana\RunCucumberTest.class
+io\cucumber\mariana\ASendQuoteSteps.class
+io\cucumber\mariana\PriceOptionSteps.class
+io\cucumber\mariana\servicos\Configuracao.class
+io\cucumber\mariana\AInsurantDataSteps.class
+io\cucumber\mariana\AProductDataSteps.class

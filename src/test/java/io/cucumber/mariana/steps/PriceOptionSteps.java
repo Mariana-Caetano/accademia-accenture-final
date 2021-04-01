@@ -1,4 +1,4 @@
-package io.cucumber.mariana.steps;
+package io.cucumber.mariana;
 
 import io.cucumber.mariana.servicos.Configuracao;
 import org.openqa.selenium.chrome.ChromeDriver;
