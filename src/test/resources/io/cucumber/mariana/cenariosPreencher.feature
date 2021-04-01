@@ -4,15 +4,21 @@ Funcionalidade: Preencher o formulario no site Tricentis
   
         Cenario: Preencher Enter Vehicle Data
              Quando estou no site Tricentis
-              E clico em uma opcao em Make
-              E digito no campo Engine Performance "100"
-              E escolho Date of Manufacture
-              E seleciono Number of Seats
-              E seleciono Fuel Type
-              E digito no campo List Price"2500"
-              E digito no campo License Plate Number
-              E digito no campo Annual Mileage "10000"
-             Entao clico no botao "Next"
+              E clico no campo Make e seleciona uma opcao
+              E clico no campo Model e seleciono uma opcao
+              E digito no campo Cylinder Capacity
+              E digito no campo Engine Performance
+              E digito no campo Date of Manufacture
+              E clico no campo Number of Seats
+              E clico no campo Right Hand Drive e seleciono
+              E clico no campo Number of Seats e seleciono
+              E clico no campo Fuel Type e seleciono
+              E digito no campo Payload
+              E digito no campo Total Weight
+              E digito no campo List Price
+              E odigito no campo License Plate Number
+              E digito no campo Annual Mileage
+             Entao clico em Next
 
   
         Cenario: Preencher Enter Insurant Data
@@ -27,7 +33,8 @@ Funcionalidade: Preencher o formulario no site Tricentis
               E escolho Occupation
               E escolho Hobbies
               E digito o Website
-             Entao clico no proximo botao "Next"
+              E clico em Picture
+             Entao clico no botao Next
       
 
         Cenario: Preencher Enter Product Data
@@ -37,19 +44,19 @@ Funcionalidade: Preencher o formulario no site Tricentis
               E escolho no campo Damage Insurance
               E seleciono uma opcao em Optional Products
               E seleciono uma opcao em Courtesy Car
-             Entao clico em "Next"
+             Entao clico em Next para preencher Price Option
   
         Cenario: Escolher tipo de Select Price Option
              Quando escolho um preco
-             Entao clico no botao seguinte "Next"
+             Entao clico no botao seguinte Next
 
         Esquema do Cenario: Preencher os campos Send Quote
-            Dado que digito o email "nanah.caetano@outlook.com"
-              E digito um telefone "36841048"
-              E escolho um nome de usuario "Mariana"
-              E escolho uma senha "*****"
-              E digito no campo Confirm Password "*****"
-              E clico no botao de "Send"
+            Dado que digito um email em Email
+              E digito no campoPhone
+              E escolho um nome de usuario no campo Username
+              E escolho uma senha no campo Password
+              E digito no campo Confirm Password
+              E clico no botao de Send
              Entao devo ver a mesnagem "Sending e-mail success!"
               
  
