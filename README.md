@@ -67,9 +67,9 @@ test.bat
 ```
 
 #### Funcionalidade: Preencher o formulario no site Tricentis
-  Preencher formulario para orçamento de seguro de carro
+  #### Preencher formulario para orçamento de seguro de carro
 
-  Cenario: Preencher Enter Vehicle Data
+  ###### Cenario: Preencher Enter Vehicle Data
              Quando estou no site Tricentis
               E clico no campo Make e seleciona uma opcao
               E clico no campo Model e seleciono uma opcao
@@ -88,7 +88,7 @@ test.bat
              Entao clico em Next
 
   
-        Cenario: Preencher Enter Insurant Data
+###### Cenario: Preencher Enter Insurant Data
             Dado que digito no campo First Name
               E digito no campo Last Name
               E escolho Date of Birth
@@ -104,7 +104,7 @@ test.bat
              Entao clico no botao Next
       
 
-        Cenario: Preencher Enter Product Data
+###### Cenario: Preencher Enter Product Data
              Quando seleciono uma data  no campo Start Date
               E seleciono um valor em Insurance Sum
               E escolho no campo Merit Rating
@@ -113,11 +113,11 @@ test.bat
               E seleciono uma opcao em Courtesy Car
              Entao clico em Next para preencher Price Option
   
-        Cenario: Escolher tipo de Select Price Option
+###### Cenario: Escolher tipo de Select Price Option
              Quando escolho um preco
              Entao clico no botao seguinte Next
 
-        Esquema do Cenario: Preencher os campos Send Quote
+ ###### Cenario: Preencher os campos Send Quote
             Dado que digito um email em Email
               E digito no campoPhone
               E escolho um nome de usuario no campo Username
