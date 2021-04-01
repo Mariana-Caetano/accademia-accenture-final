@@ -44,6 +44,8 @@ mvnw.cmd clean
 test.bat
 ```
 
+### Cenários
+
 #### Funcionalidade: Preencher o formulario no site Tricentis
   #### Preencher formulario para orçamento de seguro de carro
 
