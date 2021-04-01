@@ -4,16 +4,16 @@
 Criar um caso de teste com cinco cenários  para o site **[Tricentis](http://sampleapp.tricentis.com/101/app.php)**
 
 ## Tecnologias 👩🏽‍💻
-:heavy_check_mark: <b>Java</b><br>
+- <b>Java</b><br>
 Linguagem de programação para desenvolvimento de aplicação<br>
 
-:heavy_check_mark: <b>Maven</b><br>
+- <b>Maven</b><br>
 Gerenciador de dependência para o Java<br>
 
-:heavy_check_mark: <b>Cucumber</b><br>
+- <b>Cucumber</b><br>
 Framework responsável por traduzir uma linguagem humana em código Java<br>
 
-:heavy_check_mark: <b>Selenium</b><br>
+- <b>Selenium</b><br>
 Framework responsável por fazer a integração do código Java com a linguagem Gutking(cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
 ### Como utilizar:
