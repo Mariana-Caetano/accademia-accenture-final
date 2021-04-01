@@ -26,7 +26,7 @@ Intalar o jdk: https://www.oracle.com/br/java/technologies/javase/javase-jdk8-do
 
 - Clone do projeto: 
 ```bash
-git clone https://github.com/AmandaBarral
+git clone https://github.com/Mariana-Caetano/accademia-accenture-final.git
 ```
 
 - Entrando na pasta do projeto: 
